@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\CourseApp.Presentation.csproj",
-      "projectName": "CourseApp.Presentation",
-      "projectPath": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\CourseApp.Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\CourseApp.Domain.csproj",
+      "projectName": "CourseApp.Domain",
+      "projectPath": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\CourseApp.Domain.csproj",
       "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\obj\\",
+      "outputPath": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
