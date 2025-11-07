@@ -2,8 +2,8 @@
 
 namespace CourseApp.Domain.Models;
 
-public class Group : BaseEntity
+public class CourseGroup : BaseEntity
 {
-    public string Teacher { get; set; }
+    public string TeacherName { get; set; }
     public string Room { get; set; }
 }
