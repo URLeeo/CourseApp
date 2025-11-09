@@ -11,6 +11,19 @@
         "runtime": {
           "bin/placeholder/CourseApp.Domain.dll": {}
         }
+      },
+      "CourseApp.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CourseApp.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CourseApp.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CourseApp.Repository.dll": {}
+        }
       }
     }
   },
@@ -19,11 +32,17 @@
       "type": "project",
       "path": "../CourseApp.Domain/CourseApp.Domain.csproj",
       "msbuildProject": "../CourseApp.Domain/CourseApp.Domain.csproj"
+    },
+    "CourseApp.Repository/1.0.0": {
+      "type": "project",
+      "path": "../CourseApp.Repository/CourseApp.Repository.csproj",
+      "msbuildProject": "../CourseApp.Repository/CourseApp.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "CourseApp.Domain >= 1.0.0"
+      "CourseApp.Domain >= 1.0.0",
+      "CourseApp.Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -60,6 +79,9 @@
           "projectReferences": {
             "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\CourseApp.Domain.csproj": {
               "projectPath": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\CourseApp.Domain.csproj"
+            },
+            "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\CourseApp.Repository.csproj": {
+              "projectPath": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\CourseApp.Repository.csproj"
             }
           }
         }

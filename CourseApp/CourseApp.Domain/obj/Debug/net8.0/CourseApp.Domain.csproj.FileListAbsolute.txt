@@ -1,0 +1,12 @@
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\bin\Debug\net8.0\CourseApp.Domain.deps.json
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\bin\Debug\net8.0\CourseApp.Domain.dll
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\bin\Debug\net8.0\CourseApp.Domain.pdb
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\CourseApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\CourseApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\CourseApp.Domain.AssemblyInfo.cs
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\CourseApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\CourseApp.Domain.sourcelink.json
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\CourseApp.Domain.dll
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\refint\CourseApp.Domain.dll
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\CourseApp.Domain.pdb
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Domain\obj\Debug\net8.0\ref\CourseApp.Domain.dll

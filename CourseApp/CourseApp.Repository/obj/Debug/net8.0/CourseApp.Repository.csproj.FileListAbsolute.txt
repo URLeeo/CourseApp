@@ -1,0 +1,16 @@
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\bin\Debug\net8.0\CourseApp.Repository.deps.json
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\bin\Debug\net8.0\CourseApp.Repository.dll
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\bin\Debug\net8.0\CourseApp.Repository.pdb
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\bin\Debug\net8.0\CourseApp.Domain.dll
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\bin\Debug\net8.0\CourseApp.Domain.pdb
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseApp.Repository.csproj.AssemblyReference.cache
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseApp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseApp.Repository.AssemblyInfoInputs.cache
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseApp.Repository.AssemblyInfo.cs
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseApp.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseApp.Repository.sourcelink.json
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseAp.859F7289.Up2Date
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseApp.Repository.dll
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\refint\CourseApp.Repository.dll
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\CourseApp.Repository.pdb
+C:\Users\Leo\Desktop\CourseApp\CourseApp\CourseApp.Repository\obj\Debug\net8.0\ref\CourseApp.Repository.dll

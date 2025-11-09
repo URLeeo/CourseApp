@@ -4,7 +4,7 @@ namespace CourseApp.Service.Services.Interfaces;
 
 public interface IStudentService
 {
-    Student Create(Student student);
+    void Create(int groupId, Student student);
     void Update(int id, Student student);
     void Delete(int id);
     Student GetById(int id);
