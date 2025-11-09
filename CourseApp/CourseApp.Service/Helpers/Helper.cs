@@ -1,4 +1,6 @@
-﻿namespace CourseApp.Service.Helpers;
+﻿using System.Text.RegularExpressions;
+
+namespace CourseApp.Service.Helpers;
 
 public static class Helper
 {
@@ -7,5 +9,42 @@ public static class Helper
         Console.ForegroundColor = color;
         Console.WriteLine(text);
         Console.ResetColor();
+    }
+
+    public static string ReadValidatedString(string errorMsg)
+    {
+        while (true)
+        {
+            string input = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(input) && Regex.IsMatch(input, @"^[a-zA-Z\s]+$"))
+                return input;
+
+            ColorWrite(ConsoleColor.Red, errorMsg);
+        }
+    }
+
+    public static string ReadNonEmptyString(string errorMsg)
+    {
+        while (true)
+        {
+            string input = Console.ReadLine();
+            if (!string.IsNullOrWhiteSpace(input))
+                return input;
+
+            ColorWrite(ConsoleColor.Red, errorMsg);
+        }
+    }
+
+    public static int ReadValidatedInt(string prompt)
+    {
+        Console.Write(prompt + " ");
+        while (true)
+        {
+            string input = Console.ReadLine();
+            if (int.TryParse(input, out int result) && result >= 0)
+                return result;
+
+            ColorWrite(ConsoleColor.Red, "Invalid number! Try again:");
+        }
     }
 }

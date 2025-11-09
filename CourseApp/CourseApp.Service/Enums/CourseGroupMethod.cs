@@ -9,5 +9,6 @@ public enum CourseGroupMethod
     GetAll = 5,
     GetAllByTeacherName = 6,
     GetAllByRoom = 7,
-    SearchByName = 8
+    SearchByName = 8,
+    Exit = 0
 }

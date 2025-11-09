@@ -1,6 +1,6 @@
 ﻿namespace CourseApp.Service.Enums;
 
-public enum StudentMethod
+public enum StudentMethods
 {
     Create = 1,
     Delete = 2,
