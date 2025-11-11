@@ -117,7 +117,7 @@ namespace CourseApp
                     case (int)CourseGroupMethods.SearchByName:
                         courseGroupController.SearchCourseGroupsByName(groupService);
                         break;
-                    case 0:
+                    case (int)CourseGroupMethods.Exit:
                         return;
                     default:
                         Helper.ColorWrite(ConsoleColor.Red, "Invalid choice!");
@@ -179,7 +179,7 @@ namespace CourseApp
                     case (int)StudentMethods.SearchByNameOrSurname:
                         studentController.SearchStudents(studentService);
                         break;
-                    case 0:
+                    case (int)StudentMethods.Exit:
                         return;
                     default:
                         Helper.ColorWrite(ConsoleColor.Red, "Invalid choice!");

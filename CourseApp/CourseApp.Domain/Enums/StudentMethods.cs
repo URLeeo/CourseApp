@@ -9,5 +9,6 @@ public enum StudentMethods
     GetAll = 5,
     GetAllByAge = 6,
     GetAllByGroupId = 7,
-    SearchByNameOrSurname = 8
+    SearchByNameOrSurname = 8,
+    Exit = 0
 }
