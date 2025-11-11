@@ -59,13 +59,40 @@ public static class Helper
         }
     }
 
+    public static string ReadValidatedUpdateString(string currentValue, string errorMsg)
+    {
+        string input = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(input))
+            return currentValue;
+
+        if (Regex.IsMatch(input, @"^[a-zA-Z\s]+$"))
+            return input;
+
+        ColorWrite(ConsoleColor.Red, errorMsg);
+        return ReadValidatedUpdateString(currentValue, errorMsg);
+    }
+
+    public static string ReadLetterOrDigitUpdateString(string currentValue, string errorMsg)
+    {
+        string input = Console.ReadLine();
+        if (string.IsNullOrWhiteSpace(input))
+            return currentValue;
+
+        if (Regex.IsMatch(input, @"^[a-zA-Z0-9\s]+$"))
+            return input;
+
+        ColorWrite(ConsoleColor.Red, errorMsg);
+        return ReadLetterOrDigitUpdateString(currentValue, errorMsg);
+    }
+
+
     public static void PlayWelcomeSound()
     {
-        Console.Beep(800, 200);
-        Console.Beep(1000, 200);
-        Console.Beep(1200, 200);
-        Console.Beep(1000, 200);
-        Console.Beep(800, 400);
+        Console.Beep(800, 150);
+        Console.Beep(1000, 150);
+        Console.Beep(1200, 150);
+        Console.Beep(1000, 150);
+        Console.Beep(800, 300);
     }
 
     public static void PlaySelectSound()
