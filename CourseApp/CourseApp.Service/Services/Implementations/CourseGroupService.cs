@@ -16,147 +16,107 @@ public class CourseGroupService : ICourseGroupService
     }
     public void Create(CourseGroup courseGroup)
     {
-        try
-        {
-            if (courseGroup is not null)
-            {
-                _groupRepository.Create(courseGroup);
-            }
-            else
-            {
-                throw new ArgumentNullException("Course group cannot be null!");
-            }
-        }
-        catch (ArgumentNullException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        if (courseGroup is null)
+            throw new ArgumentNullException("Course group cannot be null!");
+
+        bool nameExists = _groupRepository.GetAll()
+            .Any(g => g.Name.Equals(courseGroup.Name, StringComparison.OrdinalIgnoreCase));
+
+        if (nameExists)
+            throw new AlreadyExistsException($"A course group with name '{courseGroup.Name}' already exists!");
+
+        _groupRepository.Create(courseGroup);
     }
 
     public void Delete(int id)
     {
-        try
-        {
-            if (id >= 0)
-            {
-                _groupRepository.Delete(id);
-            }
-            else
-            {
-                throw new ArgumentNegativeException("Id has to be positive numbers!");
-            }
-        }
-        catch (ArgumentNegativeException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        if (id < 0)
+            throw new ArgumentNegativeException("Id has to be positive numbers!");
+
+        _groupRepository.Delete(id);
     }
 
-    public List<CourseGroup> GetAll()
-    {
-        List<CourseGroup> courseGroups = _groupRepository.GetAll();
-        return courseGroups;
-    }
+    public List<CourseGroup> GetAll() => _groupRepository.GetAll();
+
     public List<CourseGroup> GetAllByRoom(string room)
     {
-        List<CourseGroup> courseGroups = _groupRepository.GetAll(cg => cg != null
-        && cg.Name.Contains(room, StringComparison.OrdinalIgnoreCase));
-        try
-        {
-            if (courseGroups.Count == 0)
-            {
-                throw new EmptyListException("No course groups found with the given room name.");
-            }
-        }
-        catch (EmptyListException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-        return courseGroups;
+        var groups = _groupRepository.GetAll(cg =>
+            cg != null &&
+            !string.IsNullOrWhiteSpace(cg.Room) &&
+            cg.Room.Contains(room, StringComparison.OrdinalIgnoreCase));
+
+        if (groups.Count == 0)
+            throw new EmptyListException("No course groups found with the given room name.");
+
+        return groups;
     }
 
     public List<CourseGroup> GetAllByTeacherName(string teacherName)
     {
-        List<CourseGroup> courseGroups = _groupRepository.GetAll(cg => cg != null
-        && cg.Name.Contains(teacherName, StringComparison.OrdinalIgnoreCase));
-        try
-        {
-            if (courseGroups.Count == 0)
-            {
-                throw new EmptyListException("No course groups found with the given teacher name.");
-            }
-        }
-        catch (EmptyListException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-        return courseGroups;
+        var groups = _groupRepository.GetAll(cg =>
+            cg != null &&
+            !string.IsNullOrWhiteSpace(cg.TeacherName) &&
+            cg.TeacherName.Contains(teacherName, StringComparison.OrdinalIgnoreCase));
+
+        if (groups.Count == 0)
+            throw new EmptyListException("No course groups found with the given teacher name.");
+
+        return groups;
     }
 
     public CourseGroup GetById(int id)
     {
-        CourseGroup courseGroup = null;
-        try
-        {
-            if (id >= 0)
-            {
-                courseGroup = _groupRepository.GetById(id);
-            }
-            else
-            {
-                throw new ArgumentNegativeException("Id has to be positive numbers!");
-            }
-        }
-        catch (ArgumentNegativeException ex)
-        {
-            Console.WriteLine($"An error occurred while retrieving the course group: {ex.Message}");
-        }
-        return courseGroup;
+        if (id < 0)
+            throw new ArgumentNegativeException("Id has to be positive numbers!");
+
+        var group = _groupRepository.GetById(id);
+        if (group == null)
+            throw new NotFoundException("Course group not found!");
+
+        return group;
     }
 
     public List<CourseGroup> SearchByName(string name)
     {
-        List<CourseGroup> groups = _groupRepository.GetAll(s =>
-        s != null &&
-        s.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
-        try
-        {
-            if (groups.Count == 0)
-            {
-                throw new EmptyListException("No groups found with the given keyword.");
-            }
-        }
-        catch (EmptyListException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        var groups = _groupRepository.GetAll(cg =>
+            cg != null &&
+            !string.IsNullOrWhiteSpace(cg.Name) &&
+            cg.Name.Contains(name, StringComparison.OrdinalIgnoreCase));
+
+        if (groups.Count == 0)
+            throw new EmptyListException("No groups found with the given keyword.");
+
         return groups;
     }
 
     public void Update(int id, CourseGroup courseGroup)
     {
-        try
+        if (id < 0)
+            throw new ArgumentNegativeException("Id has to be positive numbers!");
+        if (courseGroup is null)
+            throw new ArgumentNullException("Course group cannot be null!");
+
+        var existingGroup = _groupRepository.GetById(id);
+        if (existingGroup == null)
+            throw new NotFoundException("Course group not found!");
+
+        if (!string.IsNullOrWhiteSpace(courseGroup.Name))
         {
-            if (id >= 0 && courseGroup is not null)
-            {
-                _groupRepository.Update(id, courseGroup);
-            }
-            else if (id < 0)
-            {
-                throw new ArgumentNegativeException("Id has to be positive numbers!");
-            }
-            else
-            {
-                throw new ArgumentNullException("Course group cannot be null!");
-            }
+            bool nameExists = _groupRepository.GetAll()
+                .Any(g => g.Id != id && g.Name.Equals(courseGroup.Name, StringComparison.OrdinalIgnoreCase));
+
+            if (nameExists)
+                throw new AlreadyExistsException($"A course group with name '{courseGroup.Name}' already exists!");
+
+            existingGroup.Name = courseGroup.Name;
         }
-        catch (ArgumentNegativeException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-        catch (ArgumentNullException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+
+        if (!string.IsNullOrWhiteSpace(courseGroup.TeacherName))
+            existingGroup.TeacherName = courseGroup.TeacherName;
+
+        if (!string.IsNullOrWhiteSpace(courseGroup.Room))
+            existingGroup.Room = courseGroup.Room;
+
+        _groupRepository.Update(id, existingGroup);
     }
 }

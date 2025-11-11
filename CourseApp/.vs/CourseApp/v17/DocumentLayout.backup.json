@@ -3,20 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|solutionrelative:courseapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|solutionrelative:courseapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\helpers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\helpers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp\\controllers\\coursegroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|solutionrelative:courseapp\\controllers\\coursegroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\repositories\\services\\coursegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|solutionrelative:courseapp.repository\\repositories\\services\\coursegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\services\\implementations\\coursegroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\services\\implementations\\coursegroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.domain\\models\\coursegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|solutionrelative:courseapp.domain\\models\\coursegroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|solutionrelative:courseapp.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\repositories\\services\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|solutionrelative:courseapp.repository\\repositories\\services\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\helpers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\helpers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\exceptions\\alreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\repositories\\interfaces\\icoursegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|solutionrelative:courseapp.repository\\repositories\\interfaces\\icoursegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\enums\\coursegroupmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\enums\\coursegroupmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|solutionrelative:courseapp.domain\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.domain\\enums\\studentmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.domain\\enums\\coursegroupmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87D0F2F3-F7BD-4310-868C-83A186EB508E}|CourseApp.Domain\\CourseApp.Domain.csproj|solutionrelative:courseapp.domain\\enums\\coursegroupmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\services\\implementations\\coursegroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\services\\implementations\\coursegroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,10 +75,6 @@
       "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\enums\\studentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\enums\\coursegroupmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\enums\\coursegroupmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\services\\interfaces\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -63,24 +87,8 @@
       "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\services\\interfaces\\icoursegroupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\repositories\\services\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|solutionrelative:courseapp.repository\\repositories\\services\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|solutionrelative:courseapp\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\repositories\\interfaces\\icoursegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|solutionrelative:courseapp.repository\\repositories\\interfaces\\icoursegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.service\\exceptions\\argumentnegativeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA5AE942-A3B5-44D2-AA7A-C374BE0A7988}|CourseApp.Service\\CourseApp.Service.csproj|solutionrelative:courseapp.service\\exceptions\\argumentnegativeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\repositories\\services\\coursegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|solutionrelative:courseapp.repository\\repositories\\services\\coursegrouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\repositories\\interfaces\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,10 +97,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|solutionrelative:courseapp.repository\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp\\controllers\\coursegroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0805B7E-F38C-4C08-A8F9-52868C6F7705}|CourseApp\\CourseApp.Presentation.csproj|solutionrelative:courseapp\\controllers\\coursegroupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{046C1D5F-1A59-4F09-A786-29A67ACF21FA}|CourseApp.Repository\\CourseApp.Repository.csproj|c:\\users\\leo\\desktop\\courseapp\\courseapp\\courseapp.repository\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,129 +118,88 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseGroupController.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Controllers\\CourseGroupController.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Controllers\\CourseGroupController.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Controllers\\CourseGroupController.cs",
+              "RelativeToolTip": "CourseApp\\Controllers\\CourseGroupController.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAuwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T08:18:31.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "StudentService.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Services\\Implementations\\StudentService.cs",
-              "RelativeDocumentMoniker": "CourseApp.Service\\Services\\Implementations\\StudentService.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Services\\Implementations\\StudentService.cs",
-              "RelativeToolTip": "CourseApp.Service\\Services\\Implementations\\StudentService.cs",
-              "ViewState": "AgIAAJEAAAAAAAAAAAAAwLYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T19:01:55.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StudentMethod.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Enums\\StudentMethod.cs",
-              "RelativeDocumentMoniker": "CourseApp.Service\\Enums\\StudentMethod.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Enums\\StudentMethod.cs",
-              "RelativeToolTip": "CourseApp.Service\\Enums\\StudentMethod.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T08:21:33.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmptyListException.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\EmptyListException.cs",
-              "RelativeDocumentMoniker": "CourseApp.Service\\Exceptions\\EmptyListException.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\EmptyListException.cs",
-              "RelativeToolTip": "CourseApp.Service\\Exceptions\\EmptyListException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T08:57:50.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "CourseApp.Service\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "CourseApp.Service\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T08:49:39.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "CourseGroupService.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Services\\Implementations\\CourseGroupService.cs",
               "RelativeDocumentMoniker": "CourseApp.Service\\Services\\Implementations\\CourseGroupService.cs",
               "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Services\\Implementations\\CourseGroupService.cs",
               "RelativeToolTip": "CourseApp.Service\\Services\\Implementations\\CourseGroupService.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAwJEAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAAwHEAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T19:01:06.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Helper.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Helpers\\Helper.cs",
-              "RelativeDocumentMoniker": "CourseApp.Service\\Helpers\\Helper.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Helpers\\Helper.cs",
-              "RelativeToolTip": "CourseApp.Service\\Helpers\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "ICourseGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Interfaces\\ICourseGroupRepository.cs",
+              "RelativeDocumentMoniker": "CourseApp.Repository\\Repositories\\Interfaces\\ICourseGroupRepository.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Interfaces\\ICourseGroupRepository.cs",
+              "RelativeToolTip": "CourseApp.Repository\\Repositories\\Interfaces\\ICourseGroupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T08:25:09.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T18:57:02.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Program.cs",
-              "RelativeDocumentMoniker": "CourseApp\\Program.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Program.cs",
-              "RelativeToolTip": "CourseApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "CourseGroupRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Services\\CourseGroupRepository.cs",
+              "RelativeDocumentMoniker": "CourseApp.Repository\\Repositories\\Services\\CourseGroupRepository.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Services\\CourseGroupRepository.cs",
+              "RelativeToolTip": "CourseApp.Repository\\Repositories\\Services\\CourseGroupRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA9wBwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T17:41:27.923Z",
+              "WhenOpened": "2025-11-07T18:58:49.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "StudentMethods.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Enums\\StudentMethods.cs",
-              "RelativeDocumentMoniker": "CourseApp.Domain\\Enums\\StudentMethods.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Enums\\StudentMethods.cs",
-              "RelativeToolTip": "CourseApp.Domain\\Enums\\StudentMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Services\\Implementations\\StudentService.cs",
+              "RelativeDocumentMoniker": "CourseApp.Service\\Services\\Implementations\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Services\\Implementations\\StudentService.cs",
+              "RelativeToolTip": "CourseApp.Service\\Services\\Implementations\\StudentService.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAAwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:09:18.592Z",
+              "WhenOpened": "2025-11-07T19:01:55.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseGroupMethods.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Enums\\CourseGroupMethods.cs",
-              "RelativeDocumentMoniker": "CourseApp.Domain\\Enums\\CourseGroupMethods.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Enums\\CourseGroupMethods.cs",
-              "RelativeToolTip": "CourseApp.Domain\\Enums\\CourseGroupMethods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Services\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "CourseApp.Repository\\Repositories\\Services\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Services\\StudentRepository.cs",
+              "RelativeToolTip": "CourseApp.Repository\\Repositories\\Services\\StudentRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:10:27.711Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T18:59:46.056Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CourseGroup.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Models\\CourseGroup.cs",
               "RelativeDocumentMoniker": "CourseApp.Domain\\Models\\CourseGroup.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Models\\CourseGroup.cs*",
-              "RelativeToolTip": "CourseApp.Domain\\Models\\CourseGroup.cs*",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Models\\CourseGroup.cs",
+              "RelativeToolTip": "CourseApp.Domain\\Models\\CourseGroup.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-07T18:21:40.781Z",
@@ -244,15 +207,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "CourseApp.Domain\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Models\\Student.cs*",
-              "RelativeToolTip": "CourseApp.Domain\\Models\\Student.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "CourseApp\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:33:16.579Z",
+              "WhenOpened": "2025-11-09T08:18:17.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Helper.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Helpers\\Helper.cs",
+              "RelativeDocumentMoniker": "CourseApp.Service\\Helpers\\Helper.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Helpers\\Helper.cs",
+              "RelativeToolTip": "CourseApp.Service\\Helpers\\Helper.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T08:25:09.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Program.cs",
+              "RelativeDocumentMoniker": "CourseApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Program.cs",
+              "RelativeToolTip": "CourseApp\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwDIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T17:41:27.923Z",
               "EditorCaption": ""
             },
             {
@@ -265,12 +254,95 @@
               "RelativeToolTip": "CourseApp.Service\\Enums\\CourseGroupMethod.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T08:22:38.759Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-09T08:22:38.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AlreadyExistsException.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\AlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "CourseApp.Service\\Exceptions\\AlreadyExistsException.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\AlreadyExistsException.cs",
+              "RelativeToolTip": "CourseApp.Service\\Exceptions\\AlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T08:44:19.878Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "CourseApp.Domain\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Models\\Student.cs",
+              "RelativeToolTip": "CourseApp.Domain\\Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T18:33:16.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Enums\\StudentMethods.cs",
+              "RelativeDocumentMoniker": "CourseApp.Domain\\Enums\\StudentMethods.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Enums\\StudentMethods.cs",
+              "RelativeToolTip": "CourseApp.Domain\\Enums\\StudentMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:09:18.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CourseGroupMethods.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Enums\\CourseGroupMethods.cs",
+              "RelativeDocumentMoniker": "CourseApp.Domain\\Enums\\CourseGroupMethods.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Enums\\CourseGroupMethods.cs",
+              "RelativeToolTip": "CourseApp.Domain\\Enums\\CourseGroupMethods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T14:10:27.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "CourseApp.Service\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "CourseApp.Service\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T08:49:39.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmptyListException.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\EmptyListException.cs",
+              "RelativeDocumentMoniker": "CourseApp.Service\\Exceptions\\EmptyListException.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\EmptyListException.cs",
+              "RelativeToolTip": "CourseApp.Service\\Exceptions\\EmptyListException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T08:57:50.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Enums\\StudentMethod.cs",
+              "RelativeDocumentMoniker": "CourseApp.Service\\Enums\\StudentMethod.cs",
+              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Enums\\StudentMethod.cs",
+              "RelativeToolTip": "CourseApp.Service\\Enums\\StudentMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T08:21:33.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IStudentService.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Services\\Interfaces\\IStudentService.cs",
               "RelativeDocumentMoniker": "CourseApp.Service\\Services\\Interfaces\\IStudentService.cs",
@@ -278,12 +350,11 @@
               "RelativeToolTip": "CourseApp.Service\\Services\\Interfaces\\IStudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T19:01:38.801Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T19:01:38.801Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Domain\\Models\\Shared\\BaseEntity.cs",
               "RelativeDocumentMoniker": "CourseApp.Domain\\Models\\Shared\\BaseEntity.cs",
@@ -291,36 +362,11 @@
               "RelativeToolTip": "CourseApp.Domain\\Models\\Shared\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:21:18.551Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T18:21:18.551Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Services\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "CourseApp.Repository\\Repositories\\Services\\StudentRepository.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Services\\StudentRepository.cs",
-              "RelativeToolTip": "CourseApp.Repository\\Repositories\\Services\\StudentRepository.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAowCcAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:59:46.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "CourseApp\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "CourseApp\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T08:18:17.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "ICourseGroupService.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Services\\Interfaces\\ICourseGroupService.cs",
               "RelativeDocumentMoniker": "CourseApp.Service\\Services\\Interfaces\\ICourseGroupService.cs",
@@ -332,19 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ICourseGroupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Interfaces\\ICourseGroupRepository.cs",
-              "RelativeDocumentMoniker": "CourseApp.Repository\\Repositories\\Interfaces\\ICourseGroupRepository.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Interfaces\\ICourseGroupRepository.cs",
-              "RelativeToolTip": "CourseApp.Repository\\Repositories\\Interfaces\\ICourseGroupRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:57:02.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ArgumentNegativeException.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Service\\Exceptions\\ArgumentNegativeException.cs",
               "RelativeDocumentMoniker": "CourseApp.Service\\Exceptions\\ArgumentNegativeException.cs",
@@ -356,19 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CourseGroupRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Services\\CourseGroupRepository.cs",
-              "RelativeDocumentMoniker": "CourseApp.Repository\\Repositories\\Services\\CourseGroupRepository.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Services\\CourseGroupRepository.cs",
-              "RelativeToolTip": "CourseApp.Repository\\Repositories\\Services\\CourseGroupRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T18:58:49.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Interfaces\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "CourseApp.Repository\\Repositories\\Interfaces\\IStudentRepository.cs",
@@ -380,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "CourseApp.Repository\\Repositories\\Interfaces\\IRepository.cs",
@@ -392,19 +414,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CourseGroupController.cs",
-              "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Controllers\\CourseGroupController.cs",
-              "RelativeDocumentMoniker": "CourseApp\\Controllers\\CourseGroupController.cs",
-              "ToolTip": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp\\Controllers\\CourseGroupController.cs",
-              "RelativeToolTip": "CourseApp\\Controllers\\CourseGroupController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T08:18:31.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Leo\\Desktop\\CourseApp\\CourseApp\\CourseApp.Repository\\Contexts\\AppDbContext.cs",
               "RelativeDocumentMoniker": "CourseApp.Repository\\Contexts\\AppDbContext.cs",

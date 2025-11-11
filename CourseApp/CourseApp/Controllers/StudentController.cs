@@ -8,74 +8,152 @@ public class StudentController
 {
     public void CreateStudent(StudentService studentService)
     {
-        string name = Helper.ReadValidatedString("Invalid name! Enter again:");
-        string surname = Helper.ReadValidatedString("Invalid surname! Enter again:");
-        int age = Helper.ReadValidatedInt("Enter age:");
-        int groupId = Helper.ReadValidatedInt("Enter group ID:");
+        Console.WriteLine("=== Create New Student ===");
+        Console.Write("Enter student name: ");
+        string name = Helper.ReadValidatedString("Name is not valid. Enter again:");
+        Console.Write("Enter student surname: ");
+        string surname = Helper.ReadValidatedString("Surname is not valid. Enter again:");
+        Console.Write("Enter student age: ");
+        int age = Helper.ReadValidatedInt("Age must be a valid number. Enter again:");
+        Console.Write("Enter group ID: ");
+        int groupId = Helper.ReadValidatedInt("Group ID must be a valid number. Enter again:");
 
-        studentService.Create(groupId, new Student { Name = name, Surname = surname, Age = age });
-        Helper.ColorWrite(ConsoleColor.Green, "Student created successfully!");
+
+        try
+        {
+            studentService.Create(groupId, new Student { Name = name, Surname = surname, Age = age });
+            Helper.ColorWrite(ConsoleColor.Green, "Student created successfully!");
+        }
+        catch (Exception ex)
+        {
+            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+        }
     }
 
     public void UpdateStudent(StudentService studentService)
     {
-        int id = Helper.ReadValidatedInt("Enter student ID to update:");
-        Console.Write("Enter new name: ");
-        string newName = Console.ReadLine();
-        Console.Write("Enter new surname: ");
-        string newSurname = Console.ReadLine();
-        int newAge = Helper.ReadValidatedInt("Enter new age:");
+        Console.WriteLine("=== Update Student ===");
+        Console.Write("Enter student ID to update: ");
+        int id = Helper.ReadValidatedInt("ID must be a valid number. Enter again:");
+        Console.Write("Enter new student name: ");
+        string newName = Helper.ReadValidatedString("Name is not valid. Enter again:");
+        Console.Write("Enter new student surname: ");
+        string newSurname = Helper.ReadValidatedString("Surname is not valid. Enter again:");
+        Console.Write("Enter new student age: ");
+        int newAge = Helper.ReadValidatedInt("Age must be a valid number. Enter again:");
 
-        studentService.Update(id, new Student { Name = newName, Surname = newSurname, Age = newAge });
-        Helper.ColorWrite(ConsoleColor.Green, "Student updated successfully!");
+        try
+        {
+            studentService.Update(id, new Student { Name = newName, Surname = newSurname, Age = newAge });
+            Helper.ColorWrite(ConsoleColor.Green, "Student updated successfully!");
+        }
+        catch (Exception ex)
+        {
+            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+        }
     }
 
     public void DeleteStudent(StudentService studentService)
     {
-        int id = Helper.ReadValidatedInt("Enter student ID to delete:");
-        studentService.Delete(id);
-        Helper.ColorWrite(ConsoleColor.Green, "Student deleted successfully!");
+        Console.WriteLine("=== Delete Student ===");
+        Console.Write("Enter student ID to delete: ");
+        int id = Helper.ReadValidatedInt("ID must be a valid number. Enter again:");
+
+        try
+        {
+            studentService.Delete(id);
+            Helper.ColorWrite(ConsoleColor.Green, "Student deleted successfully!");
+        }
+        catch (Exception ex)
+        {
+            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+        }
     }
 
     public void GetStudentById(StudentService studentService)
     {
-        int id = Helper.ReadValidatedInt("Enter student ID:");
-        var student = studentService.GetById(id);
-        if (student != null)
-            Console.WriteLine($"{student.Id}. {student.Name} {student.Surname} | Age: {student.Age} | Group: {student.CourseGroup?.Name}");
-        else
-            Helper.ColorWrite(ConsoleColor.Red, "Student not found!");
+        Console.WriteLine("=== View Student Details ===");
+        Console.Write("Enter student ID: ");
+        int id = Helper.ReadValidatedInt("ID must be a valid number. Enter again:");
+
+        try
+        {
+            var student = studentService.GetById(id);
+            Console.WriteLine($"ID: {student.Id} | Name: {student.Name} {student.Surname} | Age: {student.Age} | Group: {student.CourseGroup?.Name}");
+        }
+        catch (Exception ex)
+        {
+            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+        }
     }
 
     public void GetAllStudents(StudentService studentService)
     {
-        var list = studentService.GetAll();
-        foreach (var s in list)
-            Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} | {s.Age} | Group: {s.CourseGroup?.Name}");
+        Console.WriteLine("=== List All Students ===");
+
+        try
+        {
+            var list = studentService.GetAll();
+            foreach (var s in list)
+                Console.WriteLine($"ID: {s.Id} | Name: {s.Name} {s.Surname} | Age: {s.Age} | Group: {s.CourseGroup?.Name}");
+        }
+        catch (Exception ex)
+        {
+            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+        }
     }
 
     public void GetStudentsByAge(StudentService studentService)
     {
-        int age = Helper.ReadValidatedInt("Enter age:");
-        var list = studentService.GetAllByAge(age);
-        foreach (var s in list)
-            Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} | Age: {s.Age}");
+        Console.WriteLine("=== List Students by Age ===");
+        Console.Write("Enter age: ");
+        int age = Helper.ReadValidatedInt("Age must be a valid number. Enter again:");
+
+        try
+        {
+            var list = studentService.GetAllByAge(age);
+            foreach (var s in list)
+                Console.WriteLine($"ID: {s.Id} | Name: {s.Name} {s.Surname} | Age: {s.Age}");
+        }
+        catch (Exception ex)
+        {
+            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+        }
     }
 
     public void GetStudentsByGroup(StudentService studentService)
     {
-        int groupId = Helper.ReadValidatedInt("Enter group ID:");
-        var list = studentService.GetAllByGroupId(groupId);
-        foreach (var s in list)
-            Console.WriteLine($"{s.Id}. {s.Name} {s.Surname}");
+        Console.WriteLine("=== List Students by Group ===");
+        Console.Write("Enter group ID: ");
+        int groupId = Helper.ReadValidatedInt("Group ID must be a valid number. Enter again:");
+
+        try
+        {
+            var list = studentService.GetAllByGroupId(groupId);
+            foreach (var s in list)
+                Console.WriteLine($"ID: {s.Id} | Name: {s.Name} {s.Surname}");
+        }
+        catch (Exception ex)
+        {
+            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+        }
     }
 
     public void SearchStudents(StudentService studentService)
     {
-        Console.Write("Enter keyword: ");
+        Console.WriteLine("=== Search Students ===");
+        Console.Write("Enter keyword (name or surname): ");
         string keyword = Console.ReadLine();
-        var list = studentService.SearchByNameOrSurname(keyword);
-        foreach (var s in list)
-            Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} | Age: {s.Age}");
+
+        try
+        {
+            var list = studentService.SearchByNameOrSurname(keyword);
+            foreach (var s in list)
+                Console.WriteLine($"ID: {s.Id} | Name: {s.Name} {s.Surname} | Age: {s.Age}");
+        }
+        catch (Exception ex)
+        {
+            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+        }
     }
 }

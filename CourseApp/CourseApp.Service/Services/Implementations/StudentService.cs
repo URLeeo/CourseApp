@@ -16,167 +16,105 @@ public class StudentService : IStudentService
     }
     public void Create(int groupId, Student student)
     {
-        try
-        {
-            var group = _groupService.GetById(groupId);
-            if (group != null)
-            {
-                student.CourseGroup = group;
-                try
-                {
-                    if (student is not null)
-                    {
-                        _studentRepository.Create(student);
-                    }
-                    else
-                    {
-                        throw new ArgumentNullException("Student cannot be null!");
-                    }
-                }
-                catch (ArgumentNullException ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-            }
-            else
-            {
-                throw new NotFoundException("There is no group with given ID!");
-            }
-        }
-        catch (NotFoundException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        var group = _groupService.GetById(groupId);
+        if (group == null)
+            throw new NotFoundException("There is no group with given ID! Create a new group!");
+
+        if (student == null)
+            throw new ArgumentNullException("Student cannot be null!");
+
+        student.CourseGroup = group;
+        _studentRepository.Create(student);
     }
 
     public void Delete(int id)
     {
-        try
-        {
-            if (id >= 0)
-            {
-                _studentRepository.Delete(id);
-            }
-            else
-            {
-                throw new ArgumentNegativeException("Id has to be positive numbers!");
-            }
-        }
-        catch (ArgumentNegativeException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        if (id < 0)
+            throw new ArgumentNegativeException("Id has to be positive numbers!");
+
+        _studentRepository.Delete(id);
     }
 
     public List<Student> GetAll()
     {
-        List<Student> students = _studentRepository.GetAll();
-        return students;
+        return _studentRepository.GetAll();
     }
 
     public List<Student> GetAllByAge(int age)
     {
-        try
-        {
-            if (age >= 0)
-            {
-                List<Student> students = _studentRepository.GetAll(s => s != null && s.Age == age);
-                return students;
-            }
-            else
-            {
-                throw new ArgumentNegativeException("Age has to be positive numbers!");
-            }
-        }
-        catch (ArgumentNegativeException ex)
-        {
-            Console.WriteLine(ex.Message);
-            return new List<Student>();
-        }
+        if (age < 0)
+            throw new ArgumentNegativeException("Age has to be positive numbers!");
+
+        var students = _studentRepository.GetAll(s => s != null && s.Age == age);
+        if (!students.Any())
+            throw new EmptyListException("No students found with the given age.");
+
+        return students;
     }
 
     public List<Student> GetAllByGroupId(int groupId)
     {
-        try
-        {
-            if (groupId >= 0)
-            {
-                List<Student> students = _studentRepository.GetAll(s => s != null && s.CourseGroup != null && s.CourseGroup.Id == groupId);
-                return students;
-            }
-            else
-            {
-                throw new ArgumentNegativeException("Group ID has to be positive numbers!");
-            }
-        }
-        catch (ArgumentNegativeException ex)
-        {
-            Console.WriteLine(ex.Message);
-            return new List<Student>();
-        }
+        if (groupId < 0)
+            throw new ArgumentNegativeException("Group ID has to be positive numbers!");
+
+        var students = _studentRepository.GetAll(s => s != null && s.CourseGroup != null && s.CourseGroup.Id == groupId);
+        if (!students.Any())
+            throw new EmptyListException("No students found in the given group.");
+
+        return students;
     }
 
     public Student GetById(int id)
     {
         var student = _studentRepository.GetById(id);
-        try
-        {
-            if (student == null)
-            {
-                throw new NotFoundException("There is no student with given ID!");
-            }
-        }
-        catch (NotFoundException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        if (student == null)
+            throw new NotFoundException("There is no student with given ID!");
+
         return student;
     }
 
     public List<Student> SearchByNameOrSurname(string keyword)
     {
-        List<Student> students = _studentRepository.GetAll(s =>
-        s != null &&
-        (s.Name.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
-        s.Surname.Contains(keyword, StringComparison.OrdinalIgnoreCase)));
-        try
-        {
-            if (students.Count == 0)
-            {
-                throw new EmptyListException("No students found with the given keyword.");
-            }
-        }
-        catch (EmptyListException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+        var students = _studentRepository.GetAll(s =>
+            s != null &&
+            (s.Name.Contains(keyword, StringComparison.OrdinalIgnoreCase) ||
+             s.Surname.Contains(keyword, StringComparison.OrdinalIgnoreCase)));
+
+        if (!students.Any())
+            throw new EmptyListException("No students found with the given keyword.");
+
         return students;
     }
 
     public void Update(int id, Student student)
     {
-        try
+        if (id < 0)
+            throw new ArgumentNegativeException("Id has to be positive numbers!");
+        if (student == null)
+            throw new ArgumentNullException("Student cannot be null!");
+
+        var existingStudent = _studentRepository.GetById(id);
+        if (existingStudent == null)
+            throw new NotFoundException("Student not found!");
+
+        if (!string.IsNullOrWhiteSpace(student.Name))
+            existingStudent.Name = student.Name;
+
+        if (!string.IsNullOrWhiteSpace(student.Surname))
+            existingStudent.Surname = student.Surname;
+
+        if (student.Age > 0)
+            existingStudent.Age = student.Age;
+
+        if (student.CourseGroup != null)
         {
-            if (id >= 0 && student is not null)
-            {
-                _studentRepository.Update(id, student);
-            }
-            else if (id < 0)
-            {
-                throw new ArgumentNegativeException("Id has to be positive numbers!");
-            }
-            else
-            {
-                throw new ArgumentNullException("Student cannot be null!");
-            }
+            var group = _groupService.GetById(student.CourseGroup.Id);
+            if (group == null)
+                throw new NotFoundException("The provided CourseGroup does not exist!");
+
+            existingStudent.CourseGroup = group;
         }
-        catch (ArgumentNegativeException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
-        catch (ArgumentNullException ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+
+        _studentRepository.Update(id, existingStudent);
     }
 }

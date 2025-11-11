@@ -13,6 +13,7 @@ namespace CourseApp
     {
         static void Main(string[] args)
         {
+            Helper.PlayWelcomeSound();
             CourseGroupRepository groupRepository = new();
             StudentRepository studentRepository = new();
             CourseGroupService groupService = new(groupRepository);
@@ -43,12 +44,15 @@ namespace CourseApp
                 switch (mainChoice)
                 {
                     case 1:
+                        Helper.PlaySelectSound();
                         CourseGroupMenu(groupService);
                         break;
                     case 2:
+                        Helper.PlaySelectSound();
                         StudentMenu(studentService, groupService);
                         break;
                     case 0:
+                        Helper.PlayExitSound();
                         Helper.ColorWrite(ConsoleColor.Green, "Goodbye!");
                         return;
                     default:
@@ -122,7 +126,7 @@ namespace CourseApp
             }
         }
 
-        
+
 
         static void StudentMenu(StudentService studentService, CourseGroupService groupService)
         {
@@ -180,6 +184,7 @@ namespace CourseApp
                     default:
                         Helper.ColorWrite(ConsoleColor.Red, "Invalid choice!");
                         break;
+
                 }
             }
         }
