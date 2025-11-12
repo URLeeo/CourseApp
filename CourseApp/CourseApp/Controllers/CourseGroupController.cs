@@ -18,7 +18,7 @@ public class CourseGroupController
         string teacher = Helper.ReadValidatedString("Teacher name is not valid. Enter again:");
 
         Console.WriteLine("Enter room:");
-        string room = Helper.ReadLetterOrDigitString("Room cannot be empty. Enter again:");
+        string room = Helper.ReadLetterOrDigitString("Room is not valid. Enter again:");
 
         try
         {
