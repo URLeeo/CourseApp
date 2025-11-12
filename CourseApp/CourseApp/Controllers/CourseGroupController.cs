@@ -35,18 +35,33 @@ public class CourseGroupController
     {
         Helper.ColorWrite(ConsoleColor.Cyan, "=== Update Course Group ===");
 
-        Console.WriteLine("Enter group ID to update");
-        int id = Helper.ReadValidatedInt("ID must be a valid number. Enter again:");
+        CourseGroup existingGroup = null;
+        int id;
 
-        CourseGroup existingGroup;
-        try
+        while (true)
         {
-            existingGroup = groupService.GetById(id);
-        }
-        catch (Exception ex)
-        {
-            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
-            return;
+            Console.Write("Enter group ID to update (or type 'Exit' to go back): ");
+            string input = Console.ReadLine();
+
+            if (input.Equals("exit", StringComparison.OrdinalIgnoreCase) || input.Equals("e", StringComparison.OrdinalIgnoreCase))
+                return;
+
+            if (int.TryParse(input, out id))
+            {
+                try
+                {
+                    existingGroup = groupService.GetById(id);
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+                }
+            }
+            else
+            {
+                Helper.ColorWrite(ConsoleColor.Red, "ID must be a valid number. Try again:");
+            }
         }
 
         Console.WriteLine($"Current Name: {existingGroup.Name}");

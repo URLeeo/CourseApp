@@ -31,6 +31,9 @@ public class StudentService : IStudentService
     {
         if (id < 0)
             throw new ArgumentNegativeException("Id has to be positive numbers!");
+        var existingStudent = _studentRepository.GetById(id);
+        if (existingStudent == null)
+            throw new NotFoundException("Student is not found!");
 
         _studentRepository.Delete(id);
     }

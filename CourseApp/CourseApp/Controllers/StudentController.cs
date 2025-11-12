@@ -44,18 +44,33 @@ public class StudentController
     {
         Helper.ColorWrite(ConsoleColor.Cyan, "=== Update Student ===");
 
-        Console.Write("Enter student ID to update: ");
-        int id = Helper.ReadValidatedInt("ID must be a valid number. Enter again:");
-
         Student existingStudent = null;
-        try
+        int id;
+
+        while (true)
         {
-            existingStudent = studentService.GetById(id);
-        }
-        catch (Exception ex)
-        {
-            Helper.ColorWrite(ConsoleColor.Red, ex.Message);
-            return;
+            Console.Write("Enter student ID to update (or type 'Exit' to go back): ");
+            string input = Console.ReadLine();
+
+            if (input.Equals("exit", StringComparison.OrdinalIgnoreCase) || input.Equals("e", StringComparison.OrdinalIgnoreCase))
+                return;
+
+            if (int.TryParse(input, out id))
+            {
+                try
+                {
+                    existingStudent = studentService.GetById(id);
+                    break;
+                }
+                catch (Exception ex)
+                {
+                    Helper.ColorWrite(ConsoleColor.Red, ex.Message);
+                }
+            }
+            else
+            {
+                Helper.ColorWrite(ConsoleColor.Red, "ID must be a valid number. Try again:");
+            }
         }
 
         Console.WriteLine($"Current Name: {existingStudent.Name}");
@@ -87,7 +102,12 @@ public class StudentController
 
         try
         {
-            studentService.Update(id, new Student { Name = newName, Surname = newSurname, Age = newAge });
+            studentService.Update(id, new Student
+            {
+                Name = newName,
+                Surname = newSurname,
+                Age = newAge
+            });
             Helper.ColorWrite(ConsoleColor.Green, "Student updated successfully!");
         }
         catch (Exception ex)

@@ -22,6 +22,7 @@ namespace CourseApp
 
             while (true)
             {
+                Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Cyan;
                 Console.WriteLine("\n========== MAIN MENU ==========");
                 Console.WriteLine("1. Course Group Menu");

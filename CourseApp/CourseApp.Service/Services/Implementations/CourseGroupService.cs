@@ -33,6 +33,10 @@ public class CourseGroupService : ICourseGroupService
         if (id < 0)
             throw new ArgumentNegativeException("Id has to be positive numbers!");
 
+        var existingGroup = _groupRepository.GetById(id);
+        if (existingGroup == null)
+            throw new NotFoundException("Course group not found!");
+
         _groupRepository.Delete(id);
     }
 
